@@ -49,11 +49,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D261B7D128A6AF2A00CE4F4D = {
+		D2458B7228A74E15001C7396 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
 				D261B80A28A714BA00CE4F4D /* Country+CoreDataClass.swift */,
 				D261B80B28A714BA00CE4F4D /* Country+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		D261B7D128A6AF2A00CE4F4D = {
+			isa = PBXGroup;
+			children = (
 				D261B7DC28A6AF2A00CE4F4D /* BasicCoreData */,
 				D261B7DB28A6AF2A00CE4F4D /* Products */,
 			);
@@ -70,7 +77,7 @@
 		D261B7DC28A6AF2A00CE4F4D /* BasicCoreData */ = {
 			isa = PBXGroup;
 			children = (
-				D261B7F928A6B11700CE4F4D /* CoreData */,
+				D2458B7228A74E15001C7396 /* CoreData */,
 				D261B7F428A6AFA100CE4F4D /* Main */,
 				D261B7F528A6B0A200CE4F4D /* Modules */,
 				D261B7FA28A6B13700CE4F4D /* Resources */,
@@ -103,6 +110,7 @@
 		D261B7F628A6B0B500CE4F4D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D261B7E628A6AF2A00CE4F4D /* BasicCoreData.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -110,9 +118,8 @@
 		D261B7F728A6B0BD00CE4F4D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D261B80128A6B73800CE4F4D /* Adapter */,
 				D261B80028A6B73100CE4F4D /* Cell */,
-				D261B7FF28A6B72600CE4F4D /* Controller */,
+				D261B7FD28A6B4C000CE4F4D /* HomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -120,16 +127,10 @@
 		D261B7F828A6B0CB00CE4F4D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D261B80128A6B73800CE4F4D /* Adapter */,
+				D261B7FB28A6B49E00CE4F4D /* HomeViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		D261B7F928A6B11700CE4F4D /* CoreData */ = {
-			isa = PBXGroup;
-			children = (
-				D261B7E628A6AF2A00CE4F4D /* BasicCoreData.xcdatamodeld */,
-			);
-			path = CoreData;
 			sourceTree = "<group>";
 		};
 		D261B7FA28A6B13700CE4F4D /* Resources */ = {
@@ -138,15 +139,6 @@
 				D261B7E928A6AF2C00CE4F4D /* Assets.xcassets */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		D261B7FF28A6B72600CE4F4D /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				D261B7FD28A6B4C000CE4F4D /* HomeView.swift */,
-				D261B7FB28A6B49E00CE4F4D /* HomeViewController.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		D261B80028A6B73100CE4F4D /* Cell */ = {

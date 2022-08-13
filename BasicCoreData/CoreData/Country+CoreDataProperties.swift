@@ -2,7 +2,7 @@
 //  Country+CoreDataProperties.swift
 //  BasicCoreData
 //
-//  Created by MacOS11 on 12/08/22.
+//  Created by David Molina on 12/08/22.
 //
 //
 
